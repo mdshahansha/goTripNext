@@ -2,7 +2,7 @@
 
 import React, { useState } from "react";
 import CustomerInfo from "../CustomerInfo";
-import ReviewBooking from "../ReviewBooking"; // Import the new component
+// import ReviewBooking from "../"; // Import the new component
 import PaymentInfo from "../PaymentInfo";
 import OrderSubmittedInfo from "../OrderSubmittedInfo";
 
@@ -19,22 +19,13 @@ const Index = () => {
       ),
       content: <CustomerInfo />,
     },
-    {
-      title: "Review Booking",
-      stepNo: "2",
-      stepBar: (
-        <div className="col d-none d-sm-block">
-          <div className="w-full h-1 bg-border"></div>
-        </div>
-      ),
-      content: <ReviewBooking />, // New step added
-    },
+    
     {
       title: "Payment Info",
       stepNo: "3",
       stepBar: (
         <div className="col d-none d-sm-block">
-          <div className="w-full h-1 bg-border"></div>
+          <div className="w-full h-1 bg-border"></div> 
         </div>
       ),
       content: <PaymentInfo />,
