@@ -2,7 +2,7 @@
 
 import React, { useState } from "react";
 import CustomerInfo from "../CustomerInfo";
-import ReviewBooking from "../../../components/booking-page/ReviewBooking"; // Import the new component
+import ReviewBooking from "../ReviewBooking"; // Import the new component
 import PaymentInfo from "../PaymentInfo";
 import OrderSubmittedInfo from "../OrderSubmittedInfo";
 
